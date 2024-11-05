@@ -6,10 +6,17 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
-      fontFamily: {
-        sans: ['Poppins'],
+      colors: {
+        primary: "#f7ba34",
+        secondary: "#69a79c",
+        light: "#f7f7f7",
+        dark: "#333333",
+        dark2: "#999999",
       },
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
+      container: {},
     },
   },
   plugins: [],
