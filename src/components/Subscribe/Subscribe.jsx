@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBell } from "react-icons/fa";
 import { motion } from "framer-motion";
-import BgImage from "../../assets/subsImg.jpg";
+import BgImage from "../../assets/subsImg.png";
 
 const BgStyle = {
   backgroundImage: `url(${BgImage})`,
@@ -17,7 +17,7 @@ const Subscribe = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         style={BgStyle}
-        className="container py-24 md:py-48"
+        className="container py-24 md:py-44"
       >
         <motion.div 
         initial={{ opacity:0, scale:0.5 }}
