@@ -1,8 +1,12 @@
 import { delay } from 'framer-motion'
 import React from 'react'
-import { CiMobile3 } from 'react-icons/ci'
-import { TbWorldWww } from 'react-icons/tb'
 import { motion } from 'framer-motion'
+import webDev  from '../../assets/webDev.png';
+import uiux  from '../../assets/uiux.png';
+import softwareQuality  from '../../assets/softwareQuality.png';
+import productManagement  from '../../assets/productManagement.png';
+import foreignLanguage  from '../../assets/foreignLanguage.png';
+import englishTest  from '../../assets/englishtest.png';
 
 
 const ServicesData = [
@@ -10,42 +14,42 @@ const ServicesData = [
         id:1,
         title:"Web Development",
         link: "#",
-        icon:<TbWorldWww />,
+        icon:<img src={webDev} className='w-16 h-16 object-contain'/>,
         delay: 0.2,
     },
     {
         id:2,
         title:"UI-UX Research and Design",
         link: "#",
-        icon:<CiMobile3 />,
+        icon:<img src={uiux} className='w-16 h-16 object-contain'/>,
         delay: 0.2,
     },
     {
         id:3,
         title:"Product and Product Management",
         link: "#",
-        icon:<TbWorldWww />,
+        icon:<img src={softwareQuality} className='w-12 h-12 object-contain'/>,
         delay: 0.2,
     },
     {
         id:4,
         title:"Software Quality Assurance",
         link: "#",
-        icon:<TbWorldWww />,
+        icon:<img src={productManagement} className='w-12 h-12 object-contain'/>,
         delay: 0.2,
     },
     {
         id:5,
         title:"Foreign Language",
         link: "#",
-        icon:<TbWorldWww />,
+        icon:<img src={foreignLanguage} className='w-12 h-12 object-contain'/>,
         delay: 0.2,
     },
     {
         id:6,
         title:"English Test and Scholarship Preparation",
         link: "#",
-        icon:<TbWorldWww />,
+        icon:<img src={englishTest} className='w-20 h-20 object-contain'/>,
         delay: 0.2,
     },
 ]
