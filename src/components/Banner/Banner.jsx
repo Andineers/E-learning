@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../assets/BannerImg.jpg";
+import BannerImg from "../../assets/BannerImg.png";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { FaBookReader } from "react-icons/fa";

@@ -38,7 +38,7 @@ const Navbar = () => {
               </li>
             ))}
             <button className="primary-btn">Sign In</button>
-            <button>Sign Up</button>
+            <button className="secondary-btn">Sign Up</button>
           </ul>
         </div>
 
